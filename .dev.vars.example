@@ -1,0 +1,7 @@
+# Copy to .dev.vars for local `wrangler dev`. NEVER commit real values.
+BOT_TOKEN=
+SUPABASE_URL=
+SUPABASE_SERVICE_ROLE_KEY=
+BOT_USERNAME=
+ADMIN_IDS=
+WEBHOOK_SECRET=

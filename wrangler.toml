@@ -1,0 +1,10 @@
+name = "pkm-bot"
+main = "src/index.ts"
+compatibility_date = "2025-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Secrets via: wrangler secret put BOT_TOKEN / SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY
+# Optional vars (no secrets) can go in [vars] or .dev.vars for local dev.
+# [vars]
+# BOT_USERNAME = "tu_bot_username"
+# ADMIN_IDS = "123456789"

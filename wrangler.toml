@@ -2,6 +2,8 @@ name = "pkm-bot"
 main = "src/index.ts"
 compatibility_date = "2025-10-01"
 compatibility_flags = ["nodejs_compat"]
+account_id = "ae97a91d0774249b72711daffe3c9970"
+workers_dev = true
 
 # Secrets via: wrangler secret put BOT_TOKEN / SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY
 # Optional vars (no secrets) can go in [vars] or .dev.vars for local dev.

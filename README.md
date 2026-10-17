@@ -57,6 +57,9 @@ src/
 
 ## Supabase
 
+Proyecto: **pkm** — `https://muewqztrdypwqqipadgj.supabase.co`
+(El proyecto anterior `filmalert` / `lbmgxxdfjmdaclkwafwr` se deja como respaldo y ya NO se usa.)
+
 Tablas (prefijo `pkm_`, no chocan con `daily_series`):
 
 - `pkm_users` — telegram_id PK, username, first_name, generation, starter_id, pokeballs, super_balls, ultra_balls, potions, revives, coins, referred_by, referrals_count, referral_balls_claimed, created_at, updated_at. RLS activado + política permisiva MVP.
@@ -102,7 +105,7 @@ npm run check                    # tsc --noEmit
    wrangler secret put WEBHOOK_SECRET
    ```
    - `BOT_TOKEN`: token del bot desde @BotFather.
-   - `SUPABASE_URL`: URL del proyecto (ej. `https://<ref>.supabase.co`).
+   - `SUPABASE_URL`: `https://muewqztrdypwqqipadgj.supabase.co` (proyecto `pkm`).
    - `SUPABASE_SERVICE_ROLE_KEY`: clave service_role (solo servidor, nunca la publiques).
    - `BOT_USERNAME`: username del bot sin @ (para enlaces de referido). Si no lo pones, usa `pkm_bot`.
    - `ADMIN_IDS`: IDs de Telegram separados por coma para `/add` y `/init`.

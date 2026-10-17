@@ -1,6 +1,8 @@
 # Copy to .dev.vars for local `wrangler dev`. NEVER commit real values.
+# Supabase project: pkm (https://muewqztrdypwqqipadgj.supabase.co)
+# Old filmalert project (lbmgxxdfjmdaclkwafwr) kept as backup only — do NOT use it.
 BOT_TOKEN=
-SUPABASE_URL=
+SUPABASE_URL=https://muewqztrdypwqqipadgj.supabase.co
 SUPABASE_SERVICE_ROLE_KEY=
 BOT_USERNAME=
 ADMIN_IDS=
